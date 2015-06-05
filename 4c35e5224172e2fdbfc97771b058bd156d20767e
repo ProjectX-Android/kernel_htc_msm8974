@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "facab960_95062bcd",
+        "filename": "Makefile",
+        "patchSetId": 3
+      },
+      "lineNbr": 334,
+      "author": {
+        "id": 1003174
+      },
+      "writtenOn": "2015-06-05T19:15:14Z",
+      "side": 1,
+      "message": "If USE_OPTIMIZATION !true defien CC here",
+      "revId": "4c35e5224172e2fdbfc97771b058bd156d20767e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "facab960_4f689587",
         "filename": "arch/arm/configs/cm_m8_defconfig",
         "patchSetId": 3
