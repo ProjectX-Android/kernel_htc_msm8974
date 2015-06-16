@@ -699,13 +699,13 @@ all: vmlinux
 #
 
 # Handle kernel CC flags by importing vendor/sm strings
-#ifneq ($(strip $(LOCAL_O3)),true)
+ifneq ($(strip $(LOCAL_O3)),true)
   ifdef CONFIG_CC_OPTIMIZE_FOR_SIZE
     KBUILD_CFLAGS += -Os $(call cc-disable-warning,maybe-uninitialized,)
   else
     KBUILD_CFLAGS += -O2
   endif
-#endif
+endif
 # end The SaberMod Project additions
 
 include $(srctree)/arch/$(SRCARCH)/Makefile
